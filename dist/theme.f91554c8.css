@@ -1,4 +1,9 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*/
+
 body {
+  font-family: 'Roboto', sans-serif;
   background-color: #777;
 }
 
@@ -6,6 +11,13 @@ body {
   padding-top: 5rem;
   width: 800px;
   margin: 0 auto;
+}
+
+.card {
+  border-radius: 6px;
+  background-color: #eee;
+  padding: 1rem;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, .2);
 }
 
 
