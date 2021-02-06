@@ -4,8 +4,6 @@ export function upload(selector, options = {}) {
   open.classList.add('btn')
   open.textContent = 'Open'
 
-  console.log(options)
-
   if(options.multi) {
     input.setAttribute('multiple', true)
   }
@@ -19,8 +17,26 @@ export function upload(selector, options = {}) {
   const triggerInput = () => input.click()
 
   const changeHandler = event => {
-    console.log('event:')
-    console.log(event.target.files)
+    if(!event.target.files.length) {
+      return
+    }
+
+    const files = Array.from(event.target.files)
+    files.forEach(file => {
+      if(!file.type.match('image')) {
+        // return
+      }
+
+      const reader = new FileReader()
+      console.log('reader:', reader)
+
+      reader.onload = ev => {
+        console.log('onload')
+        console.log(ev)
+      }
+
+      // reader.readAsDataURL(file)
+    })
   }
 
   open.addEventListener('click', triggerInput)

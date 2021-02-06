@@ -30,5 +30,13 @@ Then, make changeHandler method that triggers input change event, on which we in
 
 Ok, now we can continue on changeHandler method.
 
+### Creating preview
+Time: [30:40](https://www.youtube.com/watch?v=5vx2PVClSVU&t=1840s)
+
+In **changeHandler** continue with reader.
+But there something not working at this point, respectively reader functions
+
+
+
 ===
-Stopped at 20:50
+Stopped at  [32:10](https://www.youtube.com/watch?v=5vx2PVClSVU&t=1810s)
