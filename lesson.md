@@ -46,4 +46,4 @@ But there something not working at this point, respectively reader functions
 
 
 ===
-Stopped at  [32:10](https://www.youtube.com/watch?v=5vx2PVClSVU&t=1810s)
+Stopped at  [43:40](https://www.youtube.com/watch?v=5vx2PVClSVU&t=2620s)
