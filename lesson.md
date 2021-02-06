@@ -18,4 +18,17 @@ touch theme.css
 
 Stopped at 11:50
 
+Create buttons and styles for them.
 
+## Start working with plugin
+
+Time 13:40
+
+Create input tag with type "file".Then create button in js and add eventListener to it and this click event will trigger input click method.
+
+Then, make changeHandler method that triggers input change event, on which we input file. At this point we can grab nly one fle, but we will fix this further But now, we will give second parameter to upload function. Don't forget to add accept atribute to options, so, we can select file types accepted by our input field.
+
+Ok, now we can continue on changeHandler method.
+
+===
+Stopped at 20:50

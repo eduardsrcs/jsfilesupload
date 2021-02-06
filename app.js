@@ -1,5 +1,5 @@
 import eruda from 'eruda'
-import { me } from './upload'
+import { upload } from './upload'
 
 /*
  * Console log taken from eruda for mobile phones
@@ -7,6 +7,7 @@ import { me } from './upload'
  * https://github.com/liriliri/eruda
 */
 
+// this is for mobile browsers
 let el = document.createElement('div')
 document.body.appendChild(el);
 eruda.init({
@@ -14,4 +15,10 @@ eruda.init({
 });
 console.info('Hello')
 
-console.log(me)
+upload('#file', {
+  multi: true,
+  accept: ['.png', '.jpg', '.jpeg', '.gif', '.bmp']
+})
+
+
+document.querySelector('#chktime').innerHTML = new Date()
