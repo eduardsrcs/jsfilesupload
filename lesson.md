@@ -41,9 +41,9 @@ Ok, now we can continue on changeHandler method.
 Time: [30:40](https://www.youtube.com/watch?v=5vx2PVClSVU&t=1840s)
 
 In **changeHandler** continue with reader.
-But there something not working at this point, respectively reader functions
+But there something not working at this point, respectively reader functions. We go forward, because Minin's code works...
 
-
+### Styling images
 
 ===
 Stopped at  [43:40](https://www.youtube.com/watch?v=5vx2PVClSVU&t=2620s)
