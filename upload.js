@@ -23,6 +23,7 @@ export function upload(selector, options = {}) {
 
     const files = Array.from(event.target.files)
     files.forEach(file => {
+      console.log('file:', file)
       if(!file.type.match('image')) {
         // return
       }
