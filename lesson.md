@@ -2,7 +2,7 @@
 
 [Загрузка файлов на CSS  и JS с нуля.](https://www.youtube.com/watch?v=5vx2PVClSVU)
 
-[Source repo](https://github.com/vladilenm/upload-images)
+[Source repo](https://github.com/vladilenm/upload-images) &mdash; upload-images.
 
 ## Some problems...
 
@@ -10,7 +10,7 @@
 [FileReader onload not firing on stackoverflow](https://stackoverflow.com/questions/18542907/javascript-filereader-onload-not-firing). You can't grab a local file like that for security reasons. Another underlying problem is that readAsText (and all the read functions) need the file's content and not its file path/name. You can grab this from the files collection of the input type="file" element...
 
 ## Get started
-time 4:00. Here we install **parcel-bundler**, just simple webpack analoque. 
+time 4:00. Here we install **parcel-bundler**, just simple webpack analoque. Then, create *index.html* file.
 
 ```sh
 npm init -y
