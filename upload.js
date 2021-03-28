@@ -30,11 +30,11 @@ export function upload(selector, options = {}) {
     preview.innerHTML = ''
     files.forEach(file => {
       if(!file.type.match('image')) {
-        // return
+        return
       }
 
       const reader = new FileReader()
-      console.log('reader:', reader)
+      // console.log('reader:', reader)
 
       reader.onload = ev => {
         const src = ev.target.result
@@ -46,7 +46,7 @@ export function upload(selector, options = {}) {
         `)
       }
 
-      // reader.readAsDataURL(file)
+      reader.readAsDataURL(file)
     })
   }
 
