@@ -7,14 +7,20 @@ import { upload } from './upload'
  * https://github.com/liriliri/eruda
 */
 
-// this is for mobile browsers
-let el = document.createElement('div')
-document.body.appendChild(el);
-eruda.init({
-  container: el,
-});
-console.info('Hello')
+/**
+ * this is for mobile browsers
+ * 
+ */ 
+// let el = document.createElement('div')
+// document.body.appendChild(el);
+// eruda.init({
+//   container: el,
+// });
+// console.info('Hello')
 
+/**
+ * And this is Minins code
+ */
 upload('#file', {
   multi: true,
   accept: ['.png', '.jpg', '.jpeg', '.gif', '.bmp']
